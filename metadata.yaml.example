@@ -4,4 +4,4 @@ users:
     groups: sudo
     shell: /bin/bash
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
-    ssh-authorized-keys: 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBpIr0DP0vY9rcsgmo1eZFEBshUPEylYH5rBSXWLbPcG nick.osipov.91@yandex.ru'
+    ssh-authorized-keys: ''
