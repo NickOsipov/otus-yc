@@ -1,8 +1,8 @@
 #!/bin/bash
+# Установка переменных
 source .bashrc
 
-# Установка переменных
-
+# Создание сети
 yc vpc network create --name $YC_NETWORK_NAME --folder-id $YC_FOLDER_ID
 
 # Создание подсети
