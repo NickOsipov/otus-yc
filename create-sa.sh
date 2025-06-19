@@ -7,7 +7,7 @@ YC_SA_NAME=otus
 # Создание сервисного аккаунта
 YC_SA=$(
     yc iam service-account create --name ${YC_SA_NAME} \
-        --description "Service account for DataProc" \
+        --description "Service account for VM" \
         --format json | jq -r .
 )
 log "Service account created"
